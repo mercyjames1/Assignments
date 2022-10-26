@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio template</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">MERCY JAMES PORTFOLIO</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT ME</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PROJECTS</a>
+        <a href="#services" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SERVICES</a>
+        <a href="contactpage.html" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://web.facebook.com/mercy.shema/" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/mercyshema/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/Shema36511749" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/mercy-james-a5b367204/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CALL ME BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="tel://+2348138054072" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" phone="+2348138054072">
+            <i data-feather="phone" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left phone-text">CALL ME</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">MERCY JAMES PORTFOLIO</a>
+          <a href="contactpage.html" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#services" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SERVICES</a>
+          <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT ME</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Technology is best when it brings people together."
+            Matt Mullenweg</p>
+            
+            <h1>MERCY JAMES</h2>
+            <h2>INTENDING WEB DESIGNER</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT ME</h2>
+            <p class="w3-margin-top-2"> 
+                My name is Mercy James. I am an intending web designer and Front-end developer from Nigeria.
+               I have an understanding of visual designs as well as the knowledge of html and css required to implement web designs.
+              I am a graduate of Auchi Polytechnic, Auchi, in Edo State.
+              
+            </p>
+            
+          </div>
+          <!--PROJECTS-->
+          <div id="projects" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECTS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--PROJECT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY PROJECT TIMELINE</h3>
+              <div class="">
+                <h4>Scholarship at Zuri in partnership Ingress for Good</h4>
+                <p>September 2022 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>As a beginner with passion for tech I have carried out my tasks in this Zuri programs and they include:</li>
+                  <li>Created a single HTML page that has my name, a sentence about yourself and my goals for this internship.</li>
+                  <li>Built a tribute page with HTML.</li>
+                  <li>Prepared a HTML table that has scores and subjects for each student for SS2 class Teacher.</li>
+                  <li>Created Registration page, login page and success register page in HTML and CSS using Replit.</li>
+                  <li>Built a simple HTML & CSS website using Replit.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!--SERVICES SECTION-->
+          <div id="services" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">SERVICES</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Read Html codes.</p>
+              <p>Creates Pages with Html and Css.</p>
+            </div>
+
+             <!--HOBBIES SECTION-->
+          <div id="hobbies" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h3 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">HOBBIES</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Reading Innovative and Inspiring Articules.</p>
+              <p>Travelling And Exploring Adventurously.</p>
+              <p>Cooking.</p>
+            </div>
+
+             <!--PRIOTIES SECTION-->
+          <div id="prioties" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PRIOTIES</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>To develop better in tech since it's a good career choice.</p>
+              <p>To have more innovative ideas; thereby my interest in related seminars and programs.</p>
+              <p>Improve on Myself, Family and Source Of Income.</p>
+            </div>
+
+              
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY SKILLS</h3>
+              <!--INTERPERSONAL SKILLS-->
+              <h4>Interpersonal skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I am good at creating a one team spirit in a firm.</li>
+                <li>I am good at building clients and partner relationship to effect a better business.</li>
+                <li>I have a good collaborating act to enhance businesses.</li>
+                <li>I am respectful and knows where and when to cut boundries when carring out any job function.</li>
+              </ul>
+              <!--CRITICAL THINKING SKILLS-->
+              <h4>Critical thinking skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I am analytical.</li>
+                  <li>i have got enthusiastic acts towards innovation.</li>
+                  <li>I am creative and thus; I have got creativness towards my sense of reasoning.</li>
+                </ul>
+                <!--PROBLEM SOLVING SKILLS-->
+              <h4>Problem solving skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I am very good at decision making.</li>
+                <li>I am insightful.</li>
+                <li>My intuitive ability and thinking is on a high scale.</li>
+              </ul>
+              <!--CODING SKILLS-->
+              <h4>Coding skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Wordpress</li>
+                </ul>
+               <!--OTHER SKILLS-->
+              <h4>Other skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Good Customer service skills.</li>
+                  <li>Adaptive.</li>
+                  <li>Dynamic.</li>
+                  <li>Competent.</li>
+                </ul>
+            </div>
+
+          
+          </div>
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>shemamercy@gmail.com</p>
+          <p>© 2022 - MERCY JAMES</p>
+           
+          <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
